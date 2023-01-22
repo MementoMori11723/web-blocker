@@ -1,4 +1,5 @@
 import datetime as dt
+import time
 
 endDate = dt.datetime()  # Give a date like (2003 : year, 12 : month, 15 : date)
 siteBlock = ["www.youtube.com", "www.facebook.com",
@@ -21,3 +22,10 @@ while True:
         with open(hostPath, "r+") as hostFile:
             contant = hostFile.readlines()
             hostFile.seek(0)
+            for lines in contant:
+                if not any(website in lines for website in siteBlock):
+                    hostFile.write(lines)
+
+            hostFile.truncate()
+
+        time.sleep(5)
