@@ -6,6 +6,7 @@ import socket
 # please check if there is a host file or not
 
 if platform == "linux" or platform == "linux2":
+    # so i didn't give sudo privilages but if you know how to then please change it.
     path = '/etc/hosts'
     port = socket.gethostname()
 elif platform == "darwin":
