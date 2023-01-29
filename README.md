@@ -1,19 +1,11 @@
-# Web blocker
+# This is a web-blocker
 
-## How to use
+it uses chromes built in functions to block a website
 
-Download this file and check for all the requirments in your system
+# # how to use this extintion ???
 
-now in order to use this file open the demo.py file and add the _path to your host file_ then add your _localhost_ number
-
-now you can run this file
-
-### how to run
-
-        python demo.py
-
-## Requirments
-
-    pip install datetime time
-
-**note : these libraries might already be present on your system when you installed python**
+    Step - 1 : Open chrome or any chrome based browser
+    Step - 2 : Go to chrome://extensions
+    Step - 3 : Enable developer mode and click on load unpacked
+    Step - 4 : Select this folder
+    Step - 5 : *Try it*

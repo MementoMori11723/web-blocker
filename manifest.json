@@ -1,0 +1,15 @@
+{
+    "name":"Web-dev-Block",
+    "version":"1.0",
+    "description":"This is a web-blocker",
+    "permissions":["webRequest","webRequestBlocking","<all_urls>"],
+    "background":{
+        "scripts":["main.js"]
+    },
+    "icons":{
+        "16":"icons/blocker.png",
+        "48":"icons/blocker.png",
+        "128":"icons/blocker.png"
+    },
+    "manifest_version": 2
+}
