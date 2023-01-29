@@ -1,11 +1,15 @@
 # This is a web-blocker
 
-it uses chromes built in functions to block a website
+> It uses chromes built in functions to block a website
 
-# # how to use this extintion ???
+## how to use this extintion ???
 
-    Step - 1 : Open chrome or any chrome based browser
-    Step - 2 : Go to chrome://extensions
-    Step - 3 : Enable developer mode and click on load unpacked
-    Step - 4 : Select this folder
-    Step - 5 : *Try it*
+1. Open chrome or any chrome based browser
+1. Go to chrome://extensions
+1. Enable developer mode and click on `load unpacked`
+1. Select _this_ folder
+1. **Try it**
+
+### For more details
+
+> Please click on this [**_Video Link_**](https://youtu.be/f0Fw9yskETs"Web-Blocker")
